@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+        .kontakt {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px 50px 20px 50px;
+            background-color: #00000083;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        }
+
+
+        .kontakt h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: rgb(252, 255, 216);
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+        }
+
+        .kontakt label {
+            display: block;
+            margin-bottom: 8px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            color: rgb(252, 255, 216);
+        }
+
+        .kontakt input[type="text"],
+        .kontakt input[type="email"],
+        .kontakt textarea {
+            background-color: rgba(0, 0, 0, 0.527);
+            width: 95%;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            outline: none;
+            border-style:solid;
+            border:none;
+            color: rgb(252, 255, 216);
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            
+        }
+
+        .kontakt textarea {
+            height: 60px;
+        }
+
+        .kontakt button[type="submit"] {
+            background-color: #fff6a3f1;
+            color: rgb(0, 0, 0);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.5s;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 800;
+
+        }
+
+        .kontakt button[type="submit"]:hover {
+            background-color: #fffb1f;
+        }

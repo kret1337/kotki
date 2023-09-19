@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona Emil IITB</title>
+    <link rel="stylesheet" href="galeria.css">
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+    <div class="menu">
+        <a href="index.html">Stona Główna</a>
+        <a href="kotki.html">Kotki</a>
+        <a class="active" href="galeria.html">Galeria</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+
+      <div class="title">
+        <h1>Galeria</h1>
+      </div>
+
+      <img id="cursor" src="assets/kursor.gif" alt="Cursor GIF" style="height:70px"> <!-- Add the cursor GIF here -->
+
+      <script>
+          const cursor = document.getElementById("cursor");
+  
+          document.body.addEventListener("mousemove", (e) => {
+              cursor.style.left = e.clientX - cursor.width / 2 + "px";
+              cursor.style.top = e.clientY - cursor.height / 2 + "px";
+          });
+      </script>
+<div class="galeria-main">
+<div class="galeria">
+    <a target="_blank" href="assets/kicia1.png">
+      <img src="assets/kicia1.png" alt="kicia1" width="600" height="400">
+    </a>
+    <div class="opis">Super kotek mega fajny pog champy widzowie</div>
+  </div>
+  
+  <div class="galeria">
+    <a target="_blank" href="assets/kicia2.png">
+      <img src="assets/kicia2.png" alt="kicia2" width="600" height="400">
+    </a>
+    <div class="opis">mały mega kotek super świetny</div>
+  </div>
+  
+  <div class="galeria">
+    <a target="_blank" href="assets/kicia3.png">
+      <img src="assets/kicia3.png" alt="kicia3" width="600" height="400">
+    </a>
+    <div class="opis">rudy kotek</div>
+  </div>
+  
+  <div class="galeria">
+    <a target="_blank" href="assets/kicia4.png">
+      <img src="assets/kicia4.png" alt="kicia4" width="600" height="400">
+    </a>
+    <div class="opis">następny rudzielec</div>
+  </div>
+  </div>
+
+<footer>
+    <div class="footer-icons">
+        <a href="https://www.youtube.com/watch?v=y0sF5xhGreA" target="_blank">
+            <img src="assets/ikona1.png" alt="Icon 1"style="height: 20px;">
+        </a>
+        <a href="https://www.youtube.com/watch?v=co47u19cbds" target="_blank">
+            <img src="assets/ikona2.png" alt="Icon 2"style="height: 20px;">
+        </a>
+        <a href="https://www.youtube.com/watch?v=A2lr7C8PKbo" target="_blank">
+            <img src="assets/ikona3.png" alt="Icon 3" style="height: 20px;">
+        </a>
+    </div>
+  </footer>
+</body>
+</html>

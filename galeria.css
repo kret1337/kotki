@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+.galeria-main {
+    margin: 0 auto; /* Center horizontally */
+    width: 90%; /* You can adjust the width as needed */
+}
+
+.galeria {
+    margin: 10px;
+    background-color: #00000077;
+    width: 400px;
+    float: left;
+    padding: 10px;
+    border-radius: 15px;
+    transition: 0.5s;
+  }
+  
+ .galeria:hover {
+    background-color: rgba(104, 104, 104, 0.473);
+  }
+  
+  .galeria img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .opis {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#fdffde;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
