@@ -47,7 +47,7 @@
 
         .kontakt textarea {
             height: 60px;
-	resize: none;
+	    resize: none;
         }
 
         .kontakt button[type="submit"] {
